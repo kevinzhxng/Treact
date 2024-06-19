@@ -444,7 +444,7 @@ PRICING
 }
 
 .plan {
-    width: calc(100% / 3);
+    width: calc(100% / 3.3009);
     display: flex;
     flex-direction: column;
     border: 2px solid lightgray;
@@ -455,12 +455,18 @@ PRICING
     border-radius: 20px;
 }
 
+.plan__design {
+    background-color: aquamarine;
+    border-top: #9ae6b4;
+}
+
 .plan__box {
-    border: 4px solid lightgray;
+    
 }
 
 .plan__option {
     padding: 32px 0;
+    border-bottom: 3px solid lightgray;
 }
 
 h5 {
@@ -483,6 +489,7 @@ h6 {
 .plan__description {
     padding: 32px 32px;
     width: 100%;
+    border-bottom: 3px solid lightgray;
 }
 
 .plan__description--who {
@@ -503,4 +510,16 @@ h6 {
 
 .btn__buy-now {
     padding: 20px 48px;
+}
+
+
+/*
+
+FOOTER
+
+*/
+
+
+footer {
+    background-color:#6415ff;
 }
