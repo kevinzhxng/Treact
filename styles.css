@@ -447,5 +447,60 @@ PRICING
     width: calc(100% / 3);
     display: flex;
     flex-direction: column;
-    
+    border: 2px solid lightgray;
+    align-items: center;
+    text-align: center;
+    margin: 64px 32px 0 0;
+    padding: 8px 32px 0 32px;
+    border-radius: 20px;
+}
+
+.plan__box {
+    border: 4px solid lightgray;
+}
+
+.plan__option {
+    padding: 32px 0;
+}
+
+h5 {
+    font-size: 24px;
+    width: 100%;
+}
+
+h6 {
+    font-size: 54px;
+    letter-spacing: 0.02em;
+    margin: 16px;
+}
+
+.plan__option--date {
+    font-size: 20px;
+    font-weight: 700;
+    color: #a0aec0;
+}
+
+.plan__description {
+    padding: 32px 32px;
+    width: 100%;
+}
+
+.plan__description--who {
+    font-weight: 600;
+    font-size: 24px;
+}
+
+.plan__description--info {
+    font-size: 18px;
+    color: #718096;
+    font-weight: 500;
+    margin-top: 16px;
+}
+
+.plan__button {
+    padding: 32px 32px;
+}
+
+.btn__buy-now {
+    padding: 20px 48px;
 }
