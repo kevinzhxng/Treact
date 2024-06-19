@@ -437,3 +437,15 @@ PRICING
     letter-spacing: .08em;
     margin-bottom: 24px;
 }
+
+.plans {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.plan {
+    width: calc(100% / 3);
+    display: flex;
+    flex-direction: column;
+    
+}
